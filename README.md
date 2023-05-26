@@ -12,3 +12,6 @@
 - MSET color red brand toyota -> {color:"red", brand:"toyota}
 - GETRANGE model 0 2 -> model[0:2]
 - redis - synchrononous
+
+Serialize: take info, encode and store them
+Deserialize: take info, decode
