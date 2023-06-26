@@ -1,17 +1,6 @@
-# Redis_learn
+- Learn from being given "right answers"
+- Regression: predict a number from many possible numbers
+- Terminology: training set, (x,y): single training example, function f = model
 
-- Create an instance of Redis cloud
-- rbook.cloud
-- SET key value
-- set mess 'hi there' -> send mess to redis server
-- String (set,get,append)
-- Redis orginal caching server so it has some expire options
-- API server makes request to cache server first then to traditional DB
-- automatic expiring time
-- SETEX same as SET + EX
-- MSET color red brand toyota -> {color:"red", brand:"toyota}
-- GETRANGE model 0 2 -> model[0:2]
-- redis - synchrononous
-
-Serialize: take info, encode and store them
-Deserialize: take info, decode
+- training set -> learning algorithm -> model
+- feature + model -> prediction
